@@ -178,7 +178,26 @@ The adversarial debiasing architecture is designed to reduce bias in predictive 
 In conclusion, as artificial intelligence continues to shape our world, it’s essential that we remain vigilant about how it’s developed and deployed. Responsible AI isn’t just about creating smarter systems—it’s about building technology that reflects our highest values of fairness, transparency, and respect for individual rights. From tackling bias in hiring algorithms to safeguarding privacy in facial recognition, these challenges remind us of the need for collaborative governance, diverse teams, and constant oversight. By prioritizing responsible practices, we have the opportunity to not only unlock AI’s potential but to build public trust and deliver real, positive impact. As we continue advancing in this field, it’s clear that responsible AI will be a foundation for sustainable and ethical innovation, paving the way for a future where technology truly serves humanity. 
 
 ## [References](#references)
-> Cite all sources, including articles, books, datasets, and software used in the report. Use a consistent citation style.
+```bibtex
+@article{yang2023adversarial,
+  title={An adversarial training framework for mitigating algorithmic biases in clinical machine learning},
+  author={Yang, Jenny and Soltan, Andrew AS and Eyre, David W and Yang, Yang and Clifton, David A},
+  journal={NPJ digital medicine},
+  volume={6},
+  number={1},
+  pages={55},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
 
-
+@article{varsha2023can,
+  title={How can we manage biases in artificial intelligence systems--A systematic literature review},
+  author={Varsha, PS},
+  journal={International Journal of Information Management Data Insights},
+  volume={3},
+  number={1},
+  pages={100165},
+  year={2023},
+  publisher={Elsevier}
+}
 ---
