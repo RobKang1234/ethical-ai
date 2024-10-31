@@ -1,5 +1,5 @@
 # The Governance of Ethical AI - Examples and Proposed Solutions to Bias in Application of AI Models
-_Authors: Shaofeng Kang | Kaiyi Tang _
+_Authors: Shaofeng Kang | Kaiyi Tang | Zhuolin Zhou_
 
 ---
 
