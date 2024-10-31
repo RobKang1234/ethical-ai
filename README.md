@@ -50,14 +50,29 @@ The hiring tool penalized resumes containing words like "women's" (e.g., women�
 #### Lesson:
 This case underscores the critical importance of fairness in AI systems. It demonstrates the need for careful assessment of training data to prevent the reinforcement of historical biases.
 
-> **Details:**  
-> After modifications to the algorithms in Amazon’s recruiting engine, masculine-dominant keywords became pivotal. The research group developed 500 models tailored to specific job functions and locations, each trained to recognize over 50,000 parameters found in applicant resumes. Despite the broad parameter set, the algorithms learned to assign minimal significance to skills common across applicants, such as programming languages and platforms used.
+#### Details:
+After modifications to the algorithms in Amazon’s recruiting engine, masculine-dominant keywords became pivotal. The research group developed 500 models tailored to specific job functions and locations, each trained to recognize over 50,000 parameters found in applicant resumes. Despite the broad parameter set, the algorithms learned to assign minimal significance to skills common across applicants, such as programming languages and platforms used.
 
-#### Reflection:
-As society continues to integrate machine learning into decision-making processes, special attention to bias is crucial, as these biases may sometimes be unconsciously embedded within models. Amazon’s AI research team’s recognition and response to this bias serves as an essential example of proactive management of ethical AI challenges.
+
+> **Reflection:**
+
+> As society continues to integrate machine learning into decision-making processes, special attention to bias is crucial, as these biases may sometimes be unconsciously embedded within models. Amazon’s AI research team’s recognition and response to this bias serves as an essential example of proactive management of ethical AI challenges.
 
 ### [COMPAS - Algorithmic Bias in Criminal Justice](#compas---algorithmic-bias-in-criminal-justice)
-> Analyze the COMPAS algorithm used in criminal justice, focusing on biases against specific demographics and its consequences for fairness in sentencing and parole decisions.
+#### What Happened:
+The COMPAS algorithm, used in U.S. courts to assess the likelihood of a defendant reoffending, was discovered to be biased against Black defendants. A report by ProPublica highlighted that the tool falsely flagged Black defendants as high-risk at nearly twice the rate of white defendants.
+
+#### Impact:
+This bias raised significant concerns about accountability in AI systems, particularly within law enforcement and judicial contexts. The findings sparked debates about transparency and fairness in AI decision-making processes that directly impact individuals' lives.
+
+#### Lesson:
+The COMPAS case illustrates the critical need for explainability and fairness in high-stakes AI systems, especially those where algorithmic decisions carry real-world consequences. Ensuring that these systems are transparent and fair is essential to maintain public trust and prevent discrimination.
+
+---
+
+> **Reflection:**  
+> The COMPAS example serves as a reminder that the implementation of AI in sensitive areas, such as criminal justice, requires rigorous oversight and a commitment to fairness. It underscores the necessity for transparency, ongoing evaluation, and ethical standards in the design and deployment of such algorithms.
+
 
 ### [Google’s AI - Accountability in AI Development](#googles-ai---accountability-in-ai-development)
 > Explore Google's AI projects and the associated accountability challenges. Highlight specific instances where transparency and accountability in AI decision-making were scrutinized.
