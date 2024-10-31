@@ -145,7 +145,32 @@ Governing artificial intelligence ethics and ensuring ethical usage in hiring an
 ---
 
 ## [Technical Perspective - Adversarial Debiasing Model Architecture](#technical-perspective---adversarial-debiasing-model-architecture)
-> Provide a technical overview of adversarial debiasing as a solution for mitigating biases in AI. Include a discussion of model architecture, training methodology, and examples of its application.
+#### Overview:
+The adversarial debiasing architecture is designed to reduce bias in predictive AI models by integrating a dual-network system: a **Predictor Network** that focuses on the primary task and an **Adversary Network** aimed at identifying and minimizing bias related to protected attributes. This approach balances accuracy with fairness, minimizing any potential discriminatory impact.
+
+![Adversarial Debiasing Architecture](.assets/network.PNG)
+
+---
+
+#### Predictor Network:
+- **Objective:** To accurately predict the suitability of a candidate for a role or task.
+- **Input:** Features such as job experience, qualifications, skills, certifications, etc.
+- **Output:** Prediction score indicating the candidate's suitability.
+- **Training Goal:** The network is optimized to predict suitability while avoiding reliance on protected/sensitive features that could lead to bias.
+
+#### Adversary Network:
+- **Objective:** To detect any predictive signals associated with protected attributes (e.g., gender, race) that may inadvertently affect the Predictor’s output.
+- **Input:** Receives input from the output layer of the Predictor (P).
+- **Output:** Prediction of the sensitive attribute to highlight any potential bias.
+- **Training Goal:** Optimized to identify protected attributes based on the Predictor’s predictions, effectively serving as a "check" on the Predictor’s fairness.
+
+---
+
+#### Loss Function:
+- The model's objective is to minimize the **Predictor Loss** \( L_P \) while incorporating a penalty based on the **Adversary Loss** \( L_A \) using a regularization term \( -\alpha L_A \).
+- **Combined Loss:** \( L_P + \frac{L_P}{L_A} - \alpha L_A \)
+- This structure ensures that the Predictor is penalized if the Adversary can successfully predict protected attributes, thereby encouraging the Predictor to produce less biased outputs.
+
 
 ---
 
