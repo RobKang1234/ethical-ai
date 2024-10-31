@@ -1,5 +1,5 @@
 # The Governance of Ethical AI - Examples and Proposed Solutions to Bias in Application of AI Models
-_Authors: Shaofeng Kang | Kaiyi Tang | Zhuolin Zhou_
+_Authors: Shaofeng Kang | Kaiyi Tang | Zhuolin Zhou | Yao Xiao_
 
 ---
 
@@ -55,7 +55,6 @@ After modifications to the algorithms in Amazon’s recruiting engine, masculine
 
 
 > **Reflection:**
-
 > As society continues to integrate machine learning into decision-making processes, special attention to bias is crucial, as these biases may sometimes be unconsciously embedded within models. Amazon’s AI research team’s recognition and response to this bias serves as an essential example of proactive management of ethical AI challenges.
 
 ### [COMPAS - Algorithmic Bias in Criminal Justice](#compas---algorithmic-bias-in-criminal-justice)
@@ -75,7 +74,19 @@ The COMPAS case illustrates the critical need for explainability and fairness in
 
 
 ### [Google’s AI - Accountability in AI Development](#googles-ai---accountability-in-ai-development)
-> Explore Google's AI projects and the associated accountability challenges. Highlight specific instances where transparency and accountability in AI decision-making were scrutinized.
+#### What Happened:
+Google dismissed two prominent members of its Ethical AI team, Timnit Gebru and Margaret Mitchell, after they raised concerns regarding bias in large language models and a lack of transparency in Google’s research practices.
+
+#### Impact:
+The firings sparked backlash from the AI research community and intensified calls for greater accountability in the development of AI systems. Google faced criticism for not upholding ethical standards, particularly as a leader in AI research, casting doubt on its commitment to responsible AI practices.
+
+#### Lesson:
+This case underscores the need for fostering ethical responsibility and accountability within AI development teams and organizations. It highlights the importance of a supportive environment where ethical concerns can be raised and addressed openly, ensuring that organizations can pursue AI advancements responsibly.
+
+---
+
+> **Reflection:**  
+> The dismissal of ethical AI researchers at Google serves as a cautionary example of the challenges organizations face when balancing innovation with ethical scrutiny. This incident points to the importance of transparency, accountability, and an inclusive culture within AI research teams to sustain trust and integrity in AI development.
 
 ### [Microsoft AI Chatbot - Lack of Safeguard](#microsoft-ai-chatbot---lack-of-safeguard)
 > Examine Microsoft's AI chatbot case and the lack of safeguards, addressing the ethical responsibilities of companies in controlling AI behavior in public interactions.
