@@ -24,13 +24,13 @@ _Authors: Shaofeng Kang | Kaiyi Tang | Zhuolin Zhou | Yao Xiao_
 ---
 
 ## [Introduction](#introduction)
-> Responsible AI is crucial for ensuring that technology serves humanity in a way that is fair, ethical, and transparent. Without proper oversight, AI can unintentionally replicate and amplify existing biases. This is exemplified by Amazon’s hiring algorithm and the COMPAS tool in criminal justice, where AI-driven models, trained on historical data, favored certain demographics and inadvertently reinforced inequality.
-> 
-> Transparency and accountability are also vital in building trust in AI systems. The controversy surrounding Google’s Ethical AI team highlights the risks when transparency is lacking, while Microsoft’s Tay chatbot incident reminds us of the importance of safeguards, particularly in public-facing AI applications. Privacy is another key area in responsible AI. For example, facial recognition technology has raised concerns about accuracy and fairness, especially when applied to people with diverse skin tones. These issues demonstrate the need for frameworks that protect user rights and ensure ethical use of data.
-> 
-> To address these challenges, governments and AI developers need to collaborate on ethical governance. Regulatory frameworks focused on fairness, transparency, privacy, and accountability can set the stage for responsible AI development. In practice, this means developing AI with explainable processes, involving diverse development teams to identify and mitigate biases, and using techniques like adversarial debiasing and fairness metrics. By focusing on these principles and incorporating oversight, AI systems can align with societal values, fostering public trust and delivering sustainable benefits while minimizing potential harm.
->
-> In this paper, we will present six case studies on issues of ethical AI such as bias, safeguards, and accountability, followed by a proposed technical solution to the bias issue. 
+Responsible AI is crucial for ensuring that technology serves humanity in a way that is fair, ethical, and transparent. Without proper oversight, AI can unintentionally replicate and amplify existing biases. This is exemplified by Amazon’s hiring algorithm and the COMPAS tool in criminal justice, where AI-driven models, trained on historical data, favored certain demographics and inadvertently reinforced inequality.
+
+Transparency and accountability are also vital in building trust in AI systems. The controversy surrounding Google’s Ethical AI team highlights the risks when transparency is lacking, while Microsoft’s Tay chatbot incident reminds us of the importance of safeguards, particularly in public-facing AI applications. Privacy is another key area in responsible AI. For example, facial recognition technology has raised concerns about accuracy and fairness, especially when applied to people with diverse skin tones. These issues demonstrate the need for frameworks that protect user rights and ensure ethical use of data.
+
+To address these challenges, governments and AI developers need to collaborate on ethical governance. Regulatory frameworks focused on fairness, transparency, privacy, and accountability can set the stage for responsible AI development. In practice, this means developing AI with explainable processes, involving diverse development teams to identify and mitigate biases, and using techniques like adversarial debiasing and fairness metrics. By focusing on these principles and incorporating oversight, AI systems can align with societal values, fostering public trust and delivering sustainable benefits while minimizing potential harm.
+
+In this paper, we will present six case studies on issues of ethical AI such as bias, safeguards, and accountability, followed by a proposed technical solution to the bias issue. 
 
 
 
@@ -175,7 +175,7 @@ The adversarial debiasing architecture is designed to reduce bias in predictive 
 ---
 
 ## [Conclusion](#conclusion)
-> In conclusion, as artificial intelligence continues to shape our world, it’s essential that we remain vigilant about how it’s developed and deployed. Responsible AI isn’t just about creating smarter systems—it’s about building technology that reflects our highest values of fairness, transparency, and respect for individual rights. From tackling bias in hiring algorithms to safeguarding privacy in facial recognition, these challenges remind us of the need for collaborative governance, diverse teams, and constant oversight. By prioritizing responsible practices, we have the opportunity to not only unlock AI’s potential but to build public trust and deliver real, positive impact. As we continue advancing in this field, it’s clear that responsible AI will be a foundation for sustainable and ethical innovation, paving the way for a future where technology truly serves humanity. 
+In conclusion, as artificial intelligence continues to shape our world, it’s essential that we remain vigilant about how it’s developed and deployed. Responsible AI isn’t just about creating smarter systems—it’s about building technology that reflects our highest values of fairness, transparency, and respect for individual rights. From tackling bias in hiring algorithms to safeguarding privacy in facial recognition, these challenges remind us of the need for collaborative governance, diverse teams, and constant oversight. By prioritizing responsible practices, we have the opportunity to not only unlock AI’s potential but to build public trust and deliver real, positive impact. As we continue advancing in this field, it’s clear that responsible AI will be a foundation for sustainable and ethical innovation, paving the way for a future where technology truly serves humanity. 
 
 ## [References](#references)
 > Cite all sources, including articles, books, datasets, and software used in the report. Use a consistent citation style.
