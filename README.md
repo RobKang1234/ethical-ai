@@ -200,4 +200,23 @@ In conclusion, as artificial intelligence continues to shape our world, it’s e
   year={2023},
   publisher={Elsevier}
 }
+
+@article{varsha2023can,
+  title={How can we manage biases in artificial intelligence systems--A systematic literature review},
+  author={Varsha, PS},
+  journal={International Journal of Information Management Data Insights},
+  volume={3},
+  number={1},
+  pages={100165},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{iriondo2018amazon,
+  title={Amazon Scraps Secret AI Recruiting Engine that Showed Biases Against Women},
+  author={Iriondo, Roberto},
+  journal={DataDrivenInvestor},
+  year={2018},
+  note={Published on Oct 11, 2018}
+}
 ---
