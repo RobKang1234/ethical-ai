@@ -148,7 +148,7 @@ Governing artificial intelligence ethics and ensuring ethical usage in hiring an
 #### Overview:
 The adversarial debiasing architecture is designed to reduce bias in predictive AI models by integrating a dual-network system: a **Predictor Network** that focuses on the primary task and an **Adversary Network** aimed at identifying and minimizing bias related to protected attributes. This approach balances accuracy with fairness, minimizing any potential discriminatory impact.
 
-![Adversarial Debiasing Architecture](assets/network.PNG)
+![Adversarial Debiasing Architecture](assets/network1.PNG)
 
 ---
 
